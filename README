@@ -6,4 +6,7 @@ It includes a simple Hello World example.
 
 To test:
 1- install the plugin in moodle/local/wstemplate/
-2- Read, setup and run moodle/local/wstemplate/client/client.php
+2- Read, setup and run http://YOUR_SERVER.com/webservice/rest/server.php?wstoken=YOUR_TOKEN&wsfunction=local_wstemplate_hello_world&moodlewsrestformat=json
+
+YOUR_TOKEN:
+Site administration > Plugins > Web services > Manage tokens
